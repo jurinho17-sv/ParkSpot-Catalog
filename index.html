@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
+    <title>I'm Ju Ho Kim</title>
+    <link rel="icon" href="bitmoji-juho.png" type="image/png">
+    <meta name="description" content="A Catalog of Parking Spots in Pasadena" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js"></script>
   </head>
 
   <body>
     <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
+      <h1 class="title">ParkSpot</h1>
+      <p class="subtitle">Find the best parking in Pasadena</p>
+
+      <div class="controls">
+        <!-- Search input -->
+        <input type="text" id="search-input" placeholder="Search by name or location">
+
+        <!-- Sort dropdown -->
+        <select id="sort-select">
+          <option value="default">Sort by ...</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+          <option value="rating-high">Rating: High to Low</option>
+          <option value="rating-low">Rating: Low to High</option>
+        </select>
+      </div>
     </header>
+
     <div id="card-container"></div>
+
+    <!-- Template card that'll be hidden and cloned in JS -->
     <div class="card" style="display: none">
       <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
+        <h2>Parking Spot Name</h2>
+        <img src="" alt="Parking Location" />
+        <p class="description"></p>
+        <p class="location"></p>
+        <p class="price"></p>
+        <p class="rating"></p>
       </div>
     </div>
-    <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
+
+
+    <div class="button-container">
+      <button onclick="resetFilters();">Show All Spots</button>
+      <button onclick="parkingTipAlert();">Get Parking Tips!</button>
     </div>
+
+
+    <footer class="footer">
+      <p>Ju Ho Kim. 2025 Snap Engineering Academy applicant.</p>
+    </footer>
   </body>
 </html>
