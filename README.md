@@ -34,10 +34,21 @@ I created a fictional dataset of real parking spots in Pasadena with properties 
 
 ## Future Improvements
 If I had more time, I would add:
-- A map view showing the locations
-- The ability to save favorite parking spots
-- Real-time availability sorting option (if allowed)
-- User ratings and reviews
+
+- **Fuzzy search feature**
+    - implement a fuzzy search feature to handle misspellings to make the UX better
+
+- **User ratings & reviews**
+    - to allow drivers to share their honest feedback for each parking lot
+
+- **Map View Integration**
+    - display every parking spots on a real map
+
+- **Real-Time Availability sorting option (if allowed)**
+    - integrate live data (not mock data) to show real-time parking availability
+
+- **Save Favorite Spots**
+    - enable users to bookmark their preferred parking locations for easy future access
 
 ## Resources Used
 - MDN Web Docs for JavaScript reference
