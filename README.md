@@ -1,5 +1,20 @@
 # ParkSpot - Pasadena Parking Catalog
 
+## Live Demo (GitHub page)
+
+ParkSpot: [https://jurinho17-sv.github.io/ParkSpot-Catalog/](https://jurinho17-sv.github.io/ParkSpot-Catalog/)
+
+## Screenshots
+
+### Catalog Page
+![ParkSpot Catalog Page](screenshots/Catalog.png)
+
+### Search Functionality ("z" typed in the search box)
+![Search Functionality](screenshots/Search-function.png)
+
+### Sorting Functionality
+![Sorting Functionality](screenshots/Sorting-function.png)
+
 ## Project Description
 I made a parking spot catalog website called "ParkSpot" that shows information about parking locations in Pasadena.
 
